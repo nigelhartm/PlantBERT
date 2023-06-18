@@ -6,15 +6,11 @@ Masterthesis Bioinformatics
 # delete old conda environment<br>
 conda remove -n dnabert --all<br>
 
-# create new conda enivronment
-conda create -n dnabert python=3.6
-conda activate dnabert
-
 # this one works! https://hackmd.io/@absrocks/Bk0JWsr4j
-conda create --name torch-cuda python=3.7
-conda activate torch-cuda
-conda install -c "nvidia/label/cuda-11.7.0" cuda-toolkit
-conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda create --name dnabert python=3.6
+conda activate dnabert
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
 # building wheel for pybed tools failed
 sudo apt install gcc
