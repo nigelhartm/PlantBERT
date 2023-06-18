@@ -1,19 +1,7 @@
-# ArabidopsisBERT
-Masterthesis Bioinformatics
-
-## Setup enivronment
-```
-# init conda for bash script
-eval "$(conda shell.bash hook)"
-
-# delete old conda environment<br>
-conda remove -n dnabert --all<br>
-
-# create new conda enivronment
 conda create -n dnabert python=3.6
 conda activate dnabert
 
-# this one works! https://hackmd.io/@absrocks/Bk0JWsr4j
+# this one works? https://hackmd.io/@absrocks/Bk0JWsr4j
 conda create --name torch-cuda python=3.7
 conda activate torch-cuda
 conda install -c "nvidia/label/cuda-11.7.0" cuda-toolkit
@@ -23,12 +11,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 sudo apt install gcc
 sudo apt-get install g++
 
-# clone DNABERT
-git clone https://github.com/jerryji1993/DNABERT
+# pytorch not with gpu working (torch.cuda.is_available() == False)
+#conda install pytorch-gpu torchvision cudatoolkit=10.0 -c pytorch
 
-# install DNABERT requirements
+git clone https://github.com/jerryji1993/DNABERT
 cd DNABERT
 python3 -m pip install --editable .
 cd examples
 python3 -m pip install -r requirements.txt
-```
