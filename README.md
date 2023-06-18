@@ -20,6 +20,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 sudo apt install gcc
 sudo apt-get install g++
 
+# new working directory
+mkdir working_dir
+cd working_dir
+
 # clone DNABERT
 git clone https://github.com/jerryji1993/DNABERT
 
