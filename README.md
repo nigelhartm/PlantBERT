@@ -3,9 +3,6 @@ Masterthesis Bioinformatics
 
 ## Setup enivronment
 ```
-# init conda for bash script
-eval "$(conda shell.bash hook)"
-
 # delete old conda environment<br>
 conda remove -n dnabert --all<br>
 
