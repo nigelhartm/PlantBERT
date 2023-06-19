@@ -1,6 +1,6 @@
 k = 6 #@param {type:"integer"}
-in_file = open("working_dir/DNABERT/formatted_TAIR9_chr_all.fas", "r")
-out_file = open("working_dir/DNABERT/" + str(k) + "mer_formatted_TAIR9_chr_all.fas", "w")
+in_file = open("working_dir/DNABERT/examples/arabidopsis/formatted_TAIR9_chr_all.fas", "r")
+out_file = open("working_dir/DNABERT/examples/arabidopsis/" + str(k) + "mer_formatted_TAIR9_chr_all.fas", "w")
 line = in_file.readline()
 while line:
   line = line.replace("\n", "")

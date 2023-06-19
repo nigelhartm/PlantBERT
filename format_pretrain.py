@@ -1,6 +1,6 @@
 # create lines of length 577 like original put away all N and \n
-in_file = open("working_dir/DNABERT/arabidopsisTAIR9_chr_all.fas", "r")
-out_file = open("working_dir/DNABERT/formatted_TAIR9_chr_all.fas", "w")
+in_file = open("working_dir/DNABERT/examples/arabidopsis/TAIR9_chr_all.fas", "r")
+out_file = open("working_dir/DNABERT/examples/arabidopsis/formatted_TAIR9_chr_all.fas", "w")
 line = in_file.readline()
 buf = ""
 while line:

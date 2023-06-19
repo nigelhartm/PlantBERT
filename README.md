@@ -57,9 +57,10 @@ python kmer_pretrain.py
 cd DNABERT/examples
 
 export KMER=6
-export MODEL_PATH=PATH_TO_THE_PRETRAINED_MODEL
-export DATA_PATH=sample_data/ft/$KMER
-export OUTPUT_PATH=./ft/$KMER
+export TRAIN_FILE=arabidopsis/6mer_formatted_TAIR9_chr_all.fas
+export TEST_FILE=arabidopsis/6mer_formatted_TAIR9_chr_all.fas
+export SOURCE=~/git/ArabidopsisBERT/working_dir/DNABERT
+export OUTPUT_PATH=output$KMER
 
 python run_pretrain.py \
     --output_dir $OUTPUT_PATH \
@@ -67,16 +68,16 @@ python run_pretrain.py \
     --tokenizer_name=dna$KMER \
     --config_name=$SOURCE/src/transformers/dnabert-config/bert-config-$KMER/config.json \
     --do_train \
-    --train_data_file=$PATH_ARA$KMER$TRAIN_FILE \
+    --train_data_file=$TRAIN_FILE \
     --do_eval \
-    --eval_data_file=$PATH_ARA$KMER$TEST_FILE \
+    --eval_data_file=$TEST_FILE \
     --mlm \
     --gradient_accumulation_steps 25 \
     --per_gpu_train_batch_size 10 \
     --per_gpu_eval_batch_size 6 \
     --save_steps 500 \
     --save_total_limit 20 \
-    --max_steps 1000 \
+    --max_steps 200000 \
     --evaluate_during_training \
     --logging_steps 500 \
     --line_by_line \
