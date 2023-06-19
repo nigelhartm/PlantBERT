@@ -42,6 +42,7 @@ python3 -m pip install -r requirements.txt
 ## Create pretrain data
 ```
 # Download
+cd examples
 mkdir arabidopsis
 cd arabidopsis
 wget https://www.arabidopsis.org/download_files/Sequences/Assemblies/TAIR9_chr_all.fas
