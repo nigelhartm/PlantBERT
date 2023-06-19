@@ -9,6 +9,8 @@ conda remove -n dnabert --all
 # this one works! https://hackmd.io/@absrocks/Bk0JWsr4j
 conda create --name dnabert python=3.6
 conda activate dnabert
+
+# depends on computer 11.8 on home pc and 11.4 on edward
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
