@@ -17,7 +17,7 @@ conda config --set ssl_verify false
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
-# building wheel for pybed tools failed
+# building wheel for pybed tools failed / preinstalled on edward
 sudo apt install gcc
 sudo apt-get install g++
 
@@ -29,6 +29,7 @@ cd working_dir
 git clone https://github.com/jerryji1993/DNABERT
 
 # install DNABERT requirements
+# on edward after pip install add  --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org 
 cd DNABERT
 python3 -m pip install --editable .
 cd examples
