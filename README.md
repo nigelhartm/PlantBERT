@@ -55,6 +55,7 @@ python kmer_pretrain.py
 ## on edward error OSError:model name 'dna6' was not found
 solution is reaticng directory data/6mer
 ```
+--tokenizer_name=data/vocab.txt 
 wget https://raw.githubusercontent.com/jerryji1993/DNABERT/master/src/transformers/dnabert-config/bert-config-6/vocab.txt
 ```
 and instead dna6 in pretrain parameter put path there
