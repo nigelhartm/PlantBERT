@@ -10,6 +10,9 @@ conda remove -n dnabert --all
 conda create --name dnabert python=3.6
 conda activate dnabert
 
+# on edward
+conda config --set ssl_verify false 
+
 # depends on computer 11.8 on home pc and 11.4 on edward
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
