@@ -28,6 +28,9 @@ cd working_dir
 # clone DNABERT
 git clone https://github.com/jerryji1993/DNABERT
 
+# on edward before because error seqeval in fetch build egg raise distutilserror(str(e)) from e
+pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org setuptools_scm
+
 # install DNABERT requirements
 # on edward after pip install add  --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org 
 cd DNABERT
