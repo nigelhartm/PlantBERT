@@ -3,8 +3,8 @@ Masterthesis Bioinformatics
 
 ## Setup enivronment
 ```
-# delete old conda environment<br>
-conda remove -n dnabert --all<br>
+# delete old conda environment
+conda remove -n dnabert --all
 
 # this one works! https://hackmd.io/@absrocks/Bk0JWsr4j
 conda create --name dnabert python=3.6
