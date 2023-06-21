@@ -60,6 +60,13 @@ wget https://raw.githubusercontent.com/jerryji1993/DNABERT/master/src/transforme
 ```
 and instead dna6 in pretrain parameter put path there
 
+## FP16
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+
+## and change batchsizes to be bigger
+
 ## run pretrain
 ```
 cd DNABERT/examples
@@ -100,3 +107,4 @@ python run_pretrain.py \
     --overwrite_output_dir \
     --n_process 24
 ```
+set --fp16
