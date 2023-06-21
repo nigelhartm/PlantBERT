@@ -61,9 +61,13 @@ wget https://raw.githubusercontent.com/jerryji1993/DNABERT/master/src/transforme
 and instead dna6 in pretrain parameter put path there
 
 ## FP16
+```
 git clone https://github.com/NVIDIA/apex
 cd apex
-pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+#pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+# use code from git instead because pip to old???
+pip install -v --isolation --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
 
 ## and change batchsizes to be bigger
 
