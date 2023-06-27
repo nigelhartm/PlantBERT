@@ -38,6 +38,23 @@ python3 -m pip install --editable .
 cd examples
 python3 -m pip install -r requirements.txt
 ```
+## Problem farcry
+```
+wget https://zlib.net/zlib-1.2.13.tar.gz
+
+tar -xzf zlib-1.2.13.tar.gz
+
+./configure
+make -j4
+make install prefix=$HOME
+
+nano ~/.bashrc
+# add the follwoing line
+export INCLUDE_PATH=$HOME/include
+
+#close
+. ~/.bashrc
+```
 
 ## Create pretrain data
 ```
