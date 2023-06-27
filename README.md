@@ -51,6 +51,8 @@ make install prefix=$HOME
 nano ~/.bashrc
 # add the follwoing line
 export INCLUDE_PATH=$HOME/include
+export C_INCLUDE_PATH=$HOME/include
+export CPLUS_INCLUDE_PATH=$HOME/include
 
 #close
 . ~/.bashrc
