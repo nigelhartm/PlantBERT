@@ -1,2 +1,4 @@
 *.fas
 working_dir/
+*.fna.gz
+*.fna
