@@ -12,7 +12,8 @@ file_stats = os.stat(folder + file)
 
 ratio = (1 / (int(file_stats.st_size) / 150000000))
 buf = ''
-rand_len = random.randint(5, 512)
+kmer = 6
+rand_len = random.randrange(6, 513, kmer)
 line = in_file.readline()
 while line:
         if not line.startswith('>'):
@@ -23,10 +24,13 @@ while line:
                 buf = buf.replace('\n', '')
                 buf = buf.replace(' ', '')
         if len(buf) >= rand_len:
-                rand_len = random.randint(5, 512)
                 if(random.random() < ratio):
-                        out_file.write(buf[0:rand_len] + "\n")
+                        for j in range(0, rand_len, kmer):
+                                out_file.write(buf[j:j+kmer] + " ")
+                        out_file.write("\n")
+                        #out_file.write(buf[0:rand_len] + "\n")
                 buf = buf[rand_len:len(buf)]
+                rand_len = random.randrange(6, 513, kmer)
         line = in_file.readline()
 in_file.close()
 out_file.close()
