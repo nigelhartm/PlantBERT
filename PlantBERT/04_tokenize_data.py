@@ -36,8 +36,8 @@ mask = torch.tensor([batch['attention_mask']]).squeeze(0)
 input_ids = labels.detach().clone()
 # create random array of floats with equal dims to input_ids
 rand = torch.rand(input_ids.shape)
-# mask random 15% where token is not 0 [PAD], 1 [CLS], or 2 [SEP]
-mask_arr = (rand < .15) * (input_ids != 0) * (input_ids != 1) * (input_ids != 3)
+# mask random 15% where token is not 3 [PAD], 1 [CLS], or 2 [SEP]
+mask_arr = (rand < .15) * (input_ids != 3) * (input_ids != 1) * (input_ids != 2)
 # loop through each row in input_ids tensor (cannot do in parallel)
 for i in range(input_ids.shape[0]):
 	# get indices of mask positions from mask array
@@ -64,7 +64,7 @@ loader = torch.utils.data.DataLoader(dataset, batch_size=16, shuffle=True)
 # Initialize Model
 print("Init model . . .")
 config = RobertaConfig(
-    vocab_size=30_522,  # we align this to the tokenizer vocab_size
+    vocab_size=4096,  # we align this to the tokenizer vocab_size (DNABERT2 says 4096)
     max_position_embeddings=514,
     hidden_size=768,
     num_attention_heads=12,
