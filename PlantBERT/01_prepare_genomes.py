@@ -23,10 +23,12 @@ while line:
                 buf = buf.replace('.', '')
                 buf = buf.replace('\n', '')
                 buf = buf.replace(' ', '')
+        else:
+                buf = ''
         if len(buf) >= rand_len:
                 if(random.random() < ratio):
                         for j in range(0, rand_len, kmer):
-                                out_file.write(buf[j:j+kmer] + " ")
+                                out_file.write(buf[j:j+kmer] + "") # dont use kmer !!!???
                         out_file.write("\n")
                         #out_file.write(buf[0:rand_len] + "\n")
                 buf = buf[rand_len:len(buf)]
