@@ -16,7 +16,9 @@ model_type = ""
 if len(sys.argv) >= 2:
 	model_type = str(sys.argv[1])
 if model_type != "plants" and model_type != "other":
-	sys.exit("ERROR! Set a model type parameter eg. plants or other")
+	print("ERROR! Set a model type parameter eg. plants or other")
+	print("Correction, fixed automatic to plants!")
+	model_type = "plants"
 
 # Load and encode file
 tokenizer = RobertaTokenizer.from_pretrained(home+'data/'+model_type+'/vocabulary', max_len=512)
@@ -36,8 +38,8 @@ mask = torch.tensor([batch['attention_mask']]).squeeze(0)
 input_ids = labels.detach().clone()
 # create random array of floats with equal dims to input_ids
 rand = torch.rand(input_ids.shape)
-# mask random 15% where token is not 3 [PAD], 1 [CLS], or 2 [SEP]
-mask_arr = (rand < .15) * (input_ids != 3) * (input_ids != 1) * (input_ids != 2)
+# mask random 15% where token is not 1 [PAD], 0 [CLS], or 2 [SEP]
+mask_arr = (rand < .15) * (input_ids != 1) * (input_ids != 0) * (input_ids != 2)
 # loop through each row in input_ids tensor (cannot do in parallel)
 for i in range(input_ids.shape[0]):
 	# get indices of mask positions from mask array
