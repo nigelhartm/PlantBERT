@@ -28,7 +28,7 @@ in_file = open(home + 'data/'+ model_type +'/all_sample_'+model_type+'.fna', 'r'
 print("\tRead lines . . .")
 lines = in_file.read().split('\n')
 print("\tTokenize lines. . .")
-batch = tokenizer(lines[0:10000], max_length = 512, padding = 'max_length', truncation = True)
+batch = tokenizer(lines, max_length = 512, padding = 'max_length', truncation = True)
 
 
 # Prepare input_ids, attention_mask, labels
@@ -75,8 +75,6 @@ config = RobertaConfig(
 )
 model = RobertaForMaskedLM(config)
 
-# Prepare for torch+cuda
-print("Torch + Cuda preparation . . .")
 if torch.cuda.is_available():
 	device = torch.device('cuda')
 	print("\tUsing GPU!")
@@ -84,6 +82,8 @@ else:
 	device = torch.device('cpu')
 	sys.exit("\tUsing CPU! ERROR!")
 model.to(device)
+
+model = torch.nn.DataParallel(model, range(0, torch.cuda.device_count())) ############## DataParallel#####################################
 
 # Train the model
 print("Training . . .")
@@ -107,10 +107,10 @@ for epoch in range(epochs):
 		# extract loss
 		loss = outputs.loss
 		# calculate loss for every parameter that needs grad update
-		loss.backward()
+		loss.sum().backward()
 		# update parameters
 		optim.step()
 		# print relevant info to progress bar
 		loop.set_description(f'Epoch {epoch}')
-		loop.set_postfix(loss=loss.item())
-model.save_pretrained(home+'data/'+model_type+'/model')
+		loop.set_postfix(loss=loss.sum().item())
+model.module.save_pretrained(home+'data/'+model_type+'/model')
