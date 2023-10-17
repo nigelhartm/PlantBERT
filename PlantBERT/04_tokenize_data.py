@@ -2,7 +2,7 @@
 print("import torch . . .")
 import torch
 print("import transformers . . . ")
-from transformers import RobertaTokenizer
+from transformers import RobertaTokenizerFast
 from transformers import RobertaConfig
 from transformers import RobertaForMaskedLM
 print("import tqdm")
@@ -21,15 +21,17 @@ if model_type != "plants" and model_type != "other":
 	model_type = "plants"
 
 # Load and encode file
-tokenizer = RobertaTokenizer.from_pretrained(home+'data/'+model_type+'/vocabulary', max_len=512)
+tokenizer = RobertaTokenizerFast.from_pretrained(home+'data/'+model_type+'/vocabulary', max_len=512)
 print('Encoding . . .')
 print("\tOpen file . . .")
 in_file = open(home + 'data/'+ model_type +'/all_sample_'+model_type+'.fna', 'r')
 print("\tRead lines . . .")
 lines = in_file.read().split('\n')
 print("\tTokenize lines. . .")
-batch = tokenizer(lines, max_length = 512, padding = 'max_length', truncation = True)
-
+from datetime import datetime
+print(datetime.now().strftime("%H:%M:%S"))
+batch = tokenizer(lines[0:500000], max_length = 512, padding = 'max_length', truncation = True)
+print(datetime.now().strftime("%H:%M:%S"))
 
 # Prepare input_ids, attention_mask, labels
 print("Prepare data tensors and random masking . . .")
@@ -61,7 +63,7 @@ class Dataset(torch.utils.data.Dataset):
 		# return dictionary of input_ids, attention_mask, and labels for index i
 		return {key: tensor[i] for key, tensor in self.encodings.items()}
 dataset = Dataset(encodings)
-loader = torch.utils.data.DataLoader(dataset, batch_size=16, shuffle=True)
+loader = torch.utils.data.DataLoader(dataset, batch_size=64, shuffle=True)
 
 # Initialize Model
 print("Init model . . .")
@@ -89,7 +91,7 @@ model = torch.nn.DataParallel(model, range(0, torch.cuda.device_count())) ######
 print("Training . . .")
 model.train() # activate training mode
 optim = torch.optim.AdamW(model.parameters(), lr=1e-4) # init optimizer
-epochs = 2
+epochs = 50
 for epoch in range(epochs):
 	for j in range(0, torch.cuda.device_count()):
 		print("GPU("+str(j)+"):"+str(torch.cuda.memory_allocated(j)/1000000000)+" / "+str(torch.cuda.get_device_properties(j).total_memory/1000000000))
@@ -102,6 +104,8 @@ for epoch in range(epochs):
 		input_ids = batch['input_ids'].to(device)
 		attention_mask = batch['attention_mask'].to(device)
 		labels = batch['labels'].to(device)
+		for j in range(0, torch.cuda.device_count()):
+                	print("GPU("+str(j)+"):"+str(torch.cuda.memory_allocated(j)/1000000000)+" / "+str(torch.cuda.get_device_properties(j).total_memory/1000000000))
 		# process
 		outputs = model(input_ids, attention_mask=attention_mask, labels=labels)
 		# extract loss
