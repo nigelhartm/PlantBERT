@@ -1,5 +1,6 @@
 from tokenizers import ByteLevelBPETokenizer
 import os
+import sys
 
 home = '/usr/users/nigel.hartman/'
 
