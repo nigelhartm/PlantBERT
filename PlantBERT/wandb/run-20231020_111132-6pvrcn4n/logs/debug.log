@@ -1,0 +1,26 @@
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Configure stats pid to 130366
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Loading settings from /usr/users/nigel.hartman/.config/wandb/settings
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Loading settings from /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/settings
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'PlantBERT/05_pretrain.py', 'program_abspath': '/home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/05_pretrain.py', 'program': '/home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/05_pretrain.py'}
+2023-10-20 11:11:33,003 INFO    MainThread:130366 [wandb_init.py:_log_setup():528] Logging user logs to /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_111132-6pvrcn4n/logs/debug.log
+2023-10-20 11:11:33,004 INFO    MainThread:130366 [wandb_init.py:_log_setup():529] Logging internal logs to /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_111132-6pvrcn4n/logs/debug-internal.log
+2023-10-20 11:11:33,004 INFO    MainThread:130366 [wandb_init.py:init():568] calling init triggers
+2023-10-20 11:11:33,004 INFO    MainThread:130366 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.04, 'architecture': 'BERT', 'dataset': 'plantbert', 'epochs': 50}
+2023-10-20 11:11:33,004 INFO    MainThread:130366 [wandb_init.py:init():618] starting backend
+2023-10-20 11:11:33,004 INFO    MainThread:130366 [wandb_init.py:init():622] setting up manager
+2023-10-20 11:11:33,005 INFO    MainThread:130366 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-20 11:11:33,008 INFO    MainThread:130366 [wandb_init.py:init():628] backend started and connected
+2023-10-20 11:11:33,010 INFO    MainThread:130366 [wandb_init.py:init():720] updated telemetry
+2023-10-20 11:11:33,042 INFO    MainThread:130366 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-20 11:11:33,551 INFO    MainThread:130366 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-20 11:11:33,699 INFO    MainThread:130366 [wandb_run.py:_on_init():2229] got version response 
+2023-10-20 11:11:33,699 INFO    MainThread:130366 [wandb_init.py:init():804] starting run threads in backend
+2023-10-20 11:11:37,469 INFO    MainThread:130366 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-20 11:11:37,470 INFO    MainThread:130366 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-20 11:11:37,470 INFO    MainThread:130366 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-20 11:11:37,470 INFO    MainThread:130366 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-20 11:11:37,470 INFO    MainThread:130366 [wandb_init.py:init():845] run started, returning control to user process

@@ -1,0 +1,22 @@
+
+Training . . .
+/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Traceback (most recent call last):
+  File "/home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/05_pretrain.py", line 91, in <module>
+    outputs = model(input_ids, attention_mask=attention_mask, labels=labels)
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 185, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 200, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/site-packages/torch/nn/parallel/parallel_apply.py", line 102, in parallel_apply
+    thread.join()
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/scratch/users/nigel.hartman/bin/miniconda3/envs/plantbert/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
