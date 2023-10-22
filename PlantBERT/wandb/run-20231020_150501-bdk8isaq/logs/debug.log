@@ -24,3 +24,4 @@ config: {'learning_rate': 0.04, 'architecture': 'BERT', 'dataset': 'plantbert', 
 2023-10-20 15:05:06,378 INFO    MainThread:135129 [wandb_run.py:_redirect():2119] Wrapping output streams.
 2023-10-20 15:05:06,378 INFO    MainThread:135129 [wandb_run.py:_redirect():2144] Redirects installed.
 2023-10-20 15:05:06,378 INFO    MainThread:135129 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-20 15:21:03,518 WARNING MsgRouterThr:135129 [router.py:message_loop():77] message_loop has been closed

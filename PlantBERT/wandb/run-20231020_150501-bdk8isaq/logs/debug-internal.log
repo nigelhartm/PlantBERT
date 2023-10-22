@@ -3779,3 +3779,1176 @@
 2023-10-20 15:17:32,308 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
 2023-10-20 15:17:32,308 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
 2023-10-20 15:17:32,440 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:17:32,935 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:32,936 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:32,936 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:32,944 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:33,309 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:34,138 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:34,139 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:34,139 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:34,144 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:34,313 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:34,313 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:35,205 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:17:35,341 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:35,341 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:35,341 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:35,346 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:36,318 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:36,318 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:36,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:17:36,381 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:17:36,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:17:36,582 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:36,582 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:36,582 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:36,586 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:37,319 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:37,745 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:37,745 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:37,745 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:37,757 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:38,321 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:38,321 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:38,950 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:38,951 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:38,951 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:38,955 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:39,322 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:40,157 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:40,158 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:40,158 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:40,169 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:40,224 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:17:40,330 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:40,330 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:41,363 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:41,363 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:41,363 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:41,368 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:42,333 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:42,334 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:42,572 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:42,573 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:42,573 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:42,578 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:43,334 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:43,776 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:43,776 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:43,776 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:43,780 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:44,337 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:44,337 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:44,979 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:44,979 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:44,979 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:44,983 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:45,340 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:46,046 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:17:46,184 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:46,184 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:46,185 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:46,189 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:46,342 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:46,342 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:47,387 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:47,387 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:47,388 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:47,392 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:48,349 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:48,349 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:48,589 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:48,589 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:48,590 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:48,593 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:49,353 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:49,794 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:49,795 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:49,795 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:49,799 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:50,356 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:50,356 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:51,003 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:51,003 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:51,003 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:51,009 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:51,070 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:17:51,357 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:51,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:17:51,381 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:17:51,383 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:17:52,244 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:52,244 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:52,244 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:52,250 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:52,360 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:52,360 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:53,406 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:53,406 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:53,406 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:53,410 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:54,363 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:54,364 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:54,610 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:54,611 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:54,611 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:54,615 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:55,364 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:55,817 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:55,818 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:55,818 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:55,823 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:56,366 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:56,366 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:56,885 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:17:57,018 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:57,019 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:57,019 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:57,023 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:57,367 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:58,224 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:58,224 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:58,225 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:58,229 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:17:58,370 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:17:58,370 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:17:59,426 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:17:59,426 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:17:59,426 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:17:59,431 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:00,373 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:00,373 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:00,631 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:00,632 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:00,632 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:00,636 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:01,375 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:01,859 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:01,860 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:01,860 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:01,864 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:01,928 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:02,377 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:02,377 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:02,440 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:18:03,064 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:03,065 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:03,065 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:03,069 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:03,378 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:04,271 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:04,271 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:04,272 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:04,279 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:04,380 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:04,380 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:05,474 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:05,474 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:05,474 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:05,478 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:06,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:18:06,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:18:06,383 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:18:06,386 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:06,386 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:06,729 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:06,729 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:06,729 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:06,733 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:07,387 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:07,756 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:07,894 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:07,894 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:07,894 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:08,086 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:08,390 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:08,390 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:09,102 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:09,102 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:09,102 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:09,106 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:09,390 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:10,306 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:10,307 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:10,307 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:10,311 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:10,393 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:10,393 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:11,509 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:11,509 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:11,509 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:11,514 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:12,397 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:12,398 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:12,713 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:12,714 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:12,714 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:12,718 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:12,780 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:13,398 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:13,916 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:13,916 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:13,916 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:13,921 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:14,402 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:14,402 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:15,120 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:15,120 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:15,121 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:15,127 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:15,402 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:16,322 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:16,322 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:16,323 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:16,718 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:16,720 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:16,720 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:17,524 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:17,525 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:17,525 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:17,529 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:17,721 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:18,592 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:18,724 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:18,727 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:18,728 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:18,728 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:18,737 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:19,725 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:19,928 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:19,929 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:19,929 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:19,933 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:20,727 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:20,727 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:21,132 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:21,133 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:21,133 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:21,138 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:21,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:18:21,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:18:21,383 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:18:21,728 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:22,375 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:22,375 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:22,375 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:22,380 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:22,730 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:22,731 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:23,539 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:23,540 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:23,540 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:23,546 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:23,607 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:23,731 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:24,734 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:24,746 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:24,746 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:24,746 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:24,751 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:25,735 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:25,952 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:25,952 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:25,952 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:25,958 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:26,737 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:26,737 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:27,157 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:27,158 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:27,158 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:27,163 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:27,738 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:28,362 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:28,362 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:28,362 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:28,367 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:28,741 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:28,741 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:29,429 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:29,565 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:29,565 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:29,565 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:29,571 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:29,741 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:30,744 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:30,780 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:30,780 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:30,781 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:30,785 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:31,745 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:31,985 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:31,986 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:31,986 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:31,991 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:32,446 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:18:32,747 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:32,747 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:33,234 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:33,234 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:33,235 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:33,240 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:33,748 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:34,436 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:34,436 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:34,436 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:34,437 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:34,441 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:34,751 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:34,751 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:35,641 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:35,641 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:35,641 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:35,645 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:35,751 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:36,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:18:36,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:18:36,383 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:18:36,755 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:36,881 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:36,881 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:36,881 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:36,886 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:37,756 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:38,050 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:38,050 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:38,051 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:38,055 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:38,758 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:38,758 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:39,254 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:39,254 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:39,255 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:39,258 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:39,759 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:40,323 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:40,456 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:40,457 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:40,457 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:40,462 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:40,761 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:40,761 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:41,659 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:41,660 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:41,660 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:41,857 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:41,857 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:42,859 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:42,862 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:42,863 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:42,863 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:42,868 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:43,860 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:44,069 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:44,069 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:44,069 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:44,075 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:44,863 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:44,863 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:45,273 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:45,274 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:45,274 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:45,278 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:45,353 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:45,866 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:46,488 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:46,489 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:46,489 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:46,493 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:46,868 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:46,868 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:47,692 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:47,692 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:47,692 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:47,697 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:47,869 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:48,871 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:48,894 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:48,895 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:48,895 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:48,899 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:49,876 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:50,099 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:50,100 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:50,100 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:50,106 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:50,878 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:50,878 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:51,166 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:51,303 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:51,304 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:51,304 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:51,311 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:51,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:18:51,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:18:51,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:18:51,879 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:52,548 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:52,548 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:52,548 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:52,553 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:52,881 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:52,881 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:53,711 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:53,712 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:53,712 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:53,716 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:53,883 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:54,886 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:54,911 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:54,911 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:54,911 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:54,917 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:55,887 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:56,115 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:56,116 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:56,116 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:56,121 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:56,182 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:18:56,890 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:56,890 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:57,317 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:57,317 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:57,317 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:57,321 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:57,890 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:58,517 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:58,518 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:58,518 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:58,523 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:18:59,166 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:18:59,166 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:18:59,718 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:18:59,719 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:18:59,719 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:18:59,723 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:00,167 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:00,928 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:00,928 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:00,928 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:00,932 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:01,169 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:01,170 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:01,997 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:02,131 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:02,131 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:02,132 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:02,136 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:02,170 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:02,438 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:19:03,173 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:03,335 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:03,335 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:03,335 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:03,340 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:04,174 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:04,543 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:04,543 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:04,544 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:04,550 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:05,178 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:05,178 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:05,748 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:05,748 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:05,748 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:05,754 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:06,179 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:06,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:19:06,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:19:06,383 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:19:06,992 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:06,992 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:06,992 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:06,997 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:06,997 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:07,181 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:07,181 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:08,158 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:08,158 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:08,158 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:08,604 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:08,606 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:08,606 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:09,362 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:09,362 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:09,362 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:09,367 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:09,607 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:10,567 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:10,568 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:10,568 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:10,572 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:10,610 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:10,610 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:11,768 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:11,768 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:11,769 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:11,772 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:12,614 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:12,615 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:12,835 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:12,970 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:12,971 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:12,971 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:12,976 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:13,615 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:14,176 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:14,177 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:14,177 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:14,183 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:14,617 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:14,618 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:15,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:15,382 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:15,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:15,387 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:15,618 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:16,587 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:16,587 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:16,587 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:16,592 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:16,621 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:16,621 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:17,786 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:17,786 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:17,786 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:17,868 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:17,869 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:18,624 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:18,624 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:18,988 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:18,989 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:18,989 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:18,993 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:19,625 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:20,189 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:20,190 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:20,190 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:20,196 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:20,627 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:20,627 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:21,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:19:21,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:19:21,383 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:19:21,433 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:21,619 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:21,619 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:21,624 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:21,628 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:22,605 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:22,605 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:22,605 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:22,610 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:22,631 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:22,631 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:23,671 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:23,812 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:23,812 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:23,812 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:23,817 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:24,635 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:24,636 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:25,011 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:25,011 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:25,011 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:25,025 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:25,636 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:26,215 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:26,215 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:26,215 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:26,219 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:26,639 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:26,639 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:27,416 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:27,416 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:27,416 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:27,421 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:27,640 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:28,618 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:28,618 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:28,618 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:28,622 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:28,642 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:28,642 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:28,800 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:29,931 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:29,932 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:29,932 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:29,936 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:30,645 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:30,645 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:31,134 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:31,134 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:31,135 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:31,140 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:31,646 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:32,338 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:32,339 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:32,339 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:32,877 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:32,877 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:19:32,879 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:32,879 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:33,544 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:33,551 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:33,551 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:33,561 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:33,880 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:34,632 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:34,766 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:34,766 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:34,766 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:34,773 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:34,884 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:34,884 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:35,970 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:35,971 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:35,971 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:35,975 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:36,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:19:36,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:19:36,384 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:19:36,888 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:36,888 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:37,212 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:37,212 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:37,212 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:37,217 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:37,889 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:38,374 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:38,374 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:38,375 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:38,380 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:38,891 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:38,891 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:39,578 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:39,579 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:39,579 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:39,583 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:39,645 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:39,892 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:40,784 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:40,784 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:40,785 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:40,789 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:40,895 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:40,895 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:41,983 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:41,985 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:41,985 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:41,990 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:42,898 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:42,898 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:43,189 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:43,189 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:43,189 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:43,193 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:43,898 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:44,390 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:44,390 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:44,391 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:44,395 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:44,901 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:44,901 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:45,458 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:45,593 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:45,593 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:45,593 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:45,598 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:45,904 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:46,796 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:46,796 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:46,797 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:46,801 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:46,906 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:46,906 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:47,999 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:47,999 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:48,000 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:48,003 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:48,911 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:48,911 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:49,205 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:49,206 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:49,206 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:49,211 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:49,915 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:50,411 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:50,411 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:50,411 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:50,417 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:50,478 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:50,917 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:50,917 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:51,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:19:51,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:19:51,384 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:19:51,630 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:51,630 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:51,630 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:51,635 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:51,918 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:52,812 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:52,813 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:52,813 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:52,818 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:52,920 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:52,921 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:54,017 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:54,018 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:54,018 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:54,025 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:55,050 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:55,050 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:55,228 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:55,229 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:55,229 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:55,237 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:56,050 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:56,298 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:19:56,436 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:56,436 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:56,436 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:56,441 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:57,053 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:57,053 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:19:57,647 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:57,647 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:57,648 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:57,652 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:58,054 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:58,852 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:19:58,852 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:19:58,852 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:19:58,857 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:19:59,056 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:19:59,056 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:00,063 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:00,063 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:00,063 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:00,069 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:01,059 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:01,060 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:01,266 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:01,267 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:01,267 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:01,272 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:01,334 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:02,060 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:02,440 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:20:02,468 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:02,469 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:02,469 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:02,474 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:03,217 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:03,217 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:03,677 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:03,677 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:03,677 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:03,683 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:04,217 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:04,879 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:04,880 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:04,880 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:04,885 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:05,225 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:05,225 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:06,107 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:06,108 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:06,108 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:06,112 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:06,226 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:06,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:20:06,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:20:06,384 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:20:06,556 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:07,229 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:07,350 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:07,350 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:07,350 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:07,355 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:08,230 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:08,515 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:08,515 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:08,516 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:08,522 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:09,233 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:09,233 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:09,719 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:09,719 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:09,719 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:09,724 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:10,234 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:10,925 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:10,926 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:10,926 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:10,931 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:11,236 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:11,236 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:11,994 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:12,128 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:12,129 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:12,130 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:12,134 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:12,237 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:13,240 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:13,337 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:13,337 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:13,337 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:13,341 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:14,241 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:14,542 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:14,542 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:14,542 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:14,547 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:15,243 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:15,243 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:15,747 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:15,748 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:15,748 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:15,752 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:16,244 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:16,953 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:16,953 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:16,954 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:16,958 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:17,020 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:17,247 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:17,247 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:18,157 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:18,158 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:18,158 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:18,163 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:18,247 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:19,250 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:19,362 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:19,362 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:19,362 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:19,367 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:20,251 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:20,562 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:20,562 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:20,562 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:20,566 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:21,253 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:21,253 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:21,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:20:21,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:20:21,384 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:20:21,803 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:21,803 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:21,803 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:21,808 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:22,254 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:22,832 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:22,965 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:22,966 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:22,966 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:22,971 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:23,256 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:23,256 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:24,169 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:24,170 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:24,170 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:24,175 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:24,256 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:25,261 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:25,376 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:25,376 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:25,376 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:25,381 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:26,262 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:26,579 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:26,580 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:26,580 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:26,584 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:27,264 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:27,265 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:27,781 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:27,782 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:27,782 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:27,786 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:27,849 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:28,265 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:28,980 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:28,981 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:28,981 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:28,986 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:29,268 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:29,268 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:30,185 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:30,186 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:30,186 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:30,194 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:30,269 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:31,271 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:31,388 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:31,388 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:31,388 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:31,393 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:32,272 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:32,441 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:20:32,597 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:32,603 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:32,603 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:32,607 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:33,274 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:33,275 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:33,665 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:33,802 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:33,802 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:33,802 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:33,807 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:34,275 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:35,006 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:35,006 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:35,006 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:35,031 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:35,278 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:35,278 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:36,205 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:36,206 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:36,207 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:36,211 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:36,279 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:36,383 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:20:36,384 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:20:36,384 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:20:37,282 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:37,474 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:37,474 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:37,474 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:37,478 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:38,283 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:38,635 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:38,635 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:38,635 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:38,639 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:38,704 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:39,285 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:39,285 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:39,841 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:39,842 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:39,842 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:39,846 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:40,286 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:41,048 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:41,049 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:41,049 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:41,053 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:41,288 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:41,289 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:42,253 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:42,254 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:42,254 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:42,258 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:42,289 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:43,291 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:43,461 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:43,462 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:43,462 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:43,466 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:44,292 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:44,530 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:44,668 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:44,668 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:44,668 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:44,673 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:45,294 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:45,295 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:45,868 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:45,868 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:45,868 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:45,874 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:46,297 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:47,075 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:47,076 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:47,076 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:47,080 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:47,299 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:47,300 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:48,275 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:48,276 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:48,276 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:48,280 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:48,300 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:49,302 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:49,478 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:49,479 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:49,479 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:49,483 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:49,547 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:50,307 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:50,684 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:50,684 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:50,684 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:50,689 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:51,316 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:51,316 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:51,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-20 15:20:51,383 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: stop_status
+2023-10-20 15:20:51,384 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:20:51,928 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:51,928 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:51,928 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:51,933 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:52,317 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:53,102 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:53,103 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:53,103 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:53,114 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:53,320 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:53,320 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:54,302 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:54,303 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:54,303 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:54,308 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:54,320 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:55,323 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:55,370 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:55,510 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-20 15:20:55,510 DEBUG   SenderThread:135176 [sender.py:send():380] send: history
+2023-10-20 15:20:55,510 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: summary_record
+2023-10-20 15:20:55,515 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:56,323 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:56,718 DEBUG   SenderThread:135176 [sender.py:send():380] send: exit
+2023-10-20 15:20:56,718 INFO    SenderThread:135176 [sender.py:send_exit():585] handling exit code: 255
+2023-10-20 15:20:56,719 INFO    SenderThread:135176 [sender.py:send_exit():587] handling runtime: 954
+2023-10-20 15:20:56,725 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:56,725 INFO    SenderThread:135176 [sender.py:send_exit():593] send defer
+2023-10-20 15:20:56,725 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:56,725 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-20 15:20:56,725 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:56,725 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-20 15:20:56,725 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 1
+2023-10-20 15:20:56,725 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:56,725 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-20 15:20:56,725 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:56,725 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-20 15:20:56,725 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 2
+2023-10-20 15:20:56,726 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:56,726 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-20 15:20:56,726 INFO    HandlerThread:135176 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-20 15:20:56,726 DEBUG   SystemMonitor:135176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-20 15:20:56,726 DEBUG   SystemMonitor:135176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-20 15:20:56,727 INFO    HandlerThread:135176 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 15:20:56,727 INFO    HandlerThread:135176 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 15:20:57,326 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:57,326 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:57,380 INFO    HandlerThread:135176 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 15:20:57,380 INFO    HandlerThread:135176 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 15:20:57,381 INFO    HandlerThread:135176 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 15:20:57,381 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:57,381 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-20 15:20:57,381 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 3
+2023-10-20 15:20:57,381 DEBUG   SenderThread:135176 [sender.py:send():380] send: stats
+2023-10-20 15:20:57,381 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:57,382 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-20 15:20:57,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:57,382 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-20 15:20:57,382 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 4
+2023-10-20 15:20:57,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:57,382 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-20 15:20:57,382 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:57,382 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-20 15:20:57,382 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 5
+2023-10-20 15:20:57,382 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:57,382 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-20 15:20:57,383 DEBUG   SenderThread:135176 [sender.py:send():380] send: summary
+2023-10-20 15:20:57,387 INFO    SenderThread:135176 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-20 15:20:57,387 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:57,387 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-20 15:20:57,388 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 6
+2023-10-20 15:20:57,388 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:57,388 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-20 15:20:57,388 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:57,388 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-20 15:20:57,388 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 7
+2023-10-20 15:20:57,388 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: status_report
+2023-10-20 15:20:57,388 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:57,388 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-20 15:20:57,388 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:57,388 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-20 15:20:57,718 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-20 15:20:58,327 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:20:58,420 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 8
+2023-10-20 15:20:58,420 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: poll_exit
+2023-10-20 15:20:58,421 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:58,421 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-20 15:20:58,421 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:58,421 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-20 15:20:58,421 INFO    SenderThread:135176 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-20 15:20:58,423 INFO    SenderThread:135176 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-10-20 15:20:58,427 INFO    SenderThread:135176 [job_builder.py:build():369] adding wandb-job metadata file
+2023-10-20 15:20:58,451 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 9
+2023-10-20 15:20:58,451 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:20:58,451 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-20 15:20:58,451 DEBUG   SenderThread:135176 [sender.py:send():380] send: artifact
+2023-10-20 15:20:58,719 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-20 15:20:59,328 INFO    Thread-12 :135176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:20:59,399 INFO    SenderThread:135176 [sender.py:send_artifact():1456] sent artifact job-git_github.com_nigelhartm_ArabidopsisBERT.git_PlantBERT_05_pretrain.py - {'id': 'QXJ0aWZhY3Q6NjEwNzg3OTgy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwODMzNjM2Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjEwODk5MzUz', 'versionIndex': 3}}}
+2023-10-20 15:20:59,399 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:20:59,399 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-20 15:20:59,399 INFO    SenderThread:135176 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-20 15:21:00,330 INFO    SenderThread:135176 [dir_watcher.py:finish():388] scan: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files
+2023-10-20 15:21:00,331 INFO    SenderThread:135176 [dir_watcher.py:finish():402] scan save: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/conda-environment.yaml conda-environment.yaml
+2023-10-20 15:21:00,332 INFO    SenderThread:135176 [dir_watcher.py:finish():402] scan save: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/requirements.txt requirements.txt
+2023-10-20 15:21:00,333 INFO    SenderThread:135176 [dir_watcher.py:finish():402] scan save: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-metadata.json wandb-metadata.json
+2023-10-20 15:21:00,334 INFO    SenderThread:135176 [dir_watcher.py:finish():402] scan save: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json wandb-summary.json
+2023-10-20 15:21:00,335 INFO    SenderThread:135176 [dir_watcher.py:finish():402] scan save: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log output.log
+2023-10-20 15:21:00,338 INFO    SenderThread:135176 [dir_watcher.py:finish():402] scan save: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/config.yaml config.yaml
+2023-10-20 15:21:00,341 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 10
+2023-10-20 15:21:00,341 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: poll_exit
+2023-10-20 15:21:00,341 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:21:00,342 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-20 15:21:00,344 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:21:00,344 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-20 15:21:00,344 INFO    SenderThread:135176 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-20 15:21:00,888 INFO    wandb-upload_0:135176 [upload_job.py:push():131] Uploaded file /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/conda-environment.yaml
+2023-10-20 15:21:01,227 INFO    wandb-upload_3:135176 [upload_job.py:push():131] Uploaded file /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/output.log
+2023-10-20 15:21:01,242 INFO    wandb-upload_4:135176 [upload_job.py:push():131] Uploaded file /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/config.yaml
+2023-10-20 15:21:01,268 INFO    wandb-upload_1:135176 [upload_job.py:push():131] Uploaded file /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/requirements.txt
+2023-10-20 15:21:01,278 INFO    wandb-upload_2:135176 [upload_job.py:push():131] Uploaded file /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/files/wandb-summary.json
+2023-10-20 15:21:01,479 INFO    Thread-11 (_thread_body):135176 [sender.py:transition_state():613] send defer: 11
+2023-10-20 15:21:01,479 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:21:01,479 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-20 15:21:01,479 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:21:01,479 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-20 15:21:01,479 INFO    SenderThread:135176 [file_pusher.py:join():181] waiting for file pusher
+2023-10-20 15:21:01,479 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 12
+2023-10-20 15:21:01,479 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:21:01,479 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-20 15:21:01,480 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:21:01,480 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-20 15:21:01,480 INFO    SenderThread:135176 [file_stream.py:finish():595] file stream finish called
+2023-10-20 15:21:02,096 INFO    SenderThread:135176 [file_stream.py:finish():599] file stream finish is done
+2023-10-20 15:21:02,096 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 13
+2023-10-20 15:21:02,096 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:21:02,096 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-20 15:21:02,096 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:21:02,096 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-20 15:21:02,096 INFO    SenderThread:135176 [sender.py:transition_state():613] send defer: 14
+2023-10-20 15:21:02,096 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: defer
+2023-10-20 15:21:02,096 INFO    HandlerThread:135176 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-20 15:21:02,096 DEBUG   SenderThread:135176 [sender.py:send():380] send: final
+2023-10-20 15:21:02,096 DEBUG   SenderThread:135176 [sender.py:send():380] send: footer
+2023-10-20 15:21:02,096 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: defer
+2023-10-20 15:21:02,096 INFO    SenderThread:135176 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-20 15:21:02,097 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-20 15:21:02,097 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: poll_exit
+2023-10-20 15:21:02,097 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: server_info
+2023-10-20 15:21:02,097 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: server_info
+2023-10-20 15:21:02,099 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-20 15:21:02,099 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-20 15:21:02,100 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-20 15:21:02,100 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: job_info
+2023-10-20 15:21:02,273 DEBUG   SenderThread:135176 [sender.py:send_request():407] send_request: job_info
+2023-10-20 15:21:02,273 INFO    MainThread:135176 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-20 15:21:02,274 INFO    MainThread:135176 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-20 15:21:02,274 INFO    MainThread:135176 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-20 15:21:02,274 DEBUG   HandlerThread:135176 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-20 15:21:02,274 INFO    HandlerThread:135176 [handler.py:finish():866] shutting down handler
+2023-10-20 15:21:03,101 INFO    WriterThread:135176 [datastore.py:close():294] close: /home/mpg02/MBMP/nigel.hartman/git/ArabidopsisBERT/PlantBERT/wandb/run-20231020_150501-bdk8isaq/run-bdk8isaq.wandb
+2023-10-20 15:21:03,273 INFO    SenderThread:135176 [sender.py:finish():1534] shutting down sender
+2023-10-20 15:21:03,274 INFO    SenderThread:135176 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-20 15:21:03,274 INFO    SenderThread:135176 [file_pusher.py:join():181] waiting for file pusher

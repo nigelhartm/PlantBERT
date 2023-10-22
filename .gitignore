@@ -2,3 +2,4 @@
 working_dir/
 *.fna.gz
 *.fna
+wandb/

@@ -44,26 +44,23 @@ model.to(device)
 model = torch.nn.DataParallel(model, range(0, torch.cuda.device_count())) ############## DataParallel#####################################
 
 # start a new wandb run to track this script
-
 wandb.init(
 	# set the wandb project where this run will be logged
 	project="plantbert",
-	name="plantbert_run_000",
 	# track hyperparameters and run metadata
 	config={
 	"learning_rate": 0.04,
 	"architecture": "BERT",
 	"dataset": "plantbert",
-	"epochs": 10
+	"epochs": 50
 	}
 )
-
 
 # Train the model
 print("Training . . .")
 model.train() # activate training mode
-optim = torch.optim.AdamW(model.parameters(), lr=1e-5) # init optimizer
-epochs = 15
+optim = torch.optim.AdamW(model.parameters(), lr=1e-4) # init optimizer
+epochs = 50
 for epoch in range(epochs):
 	#setup loop with TQDM and dataloader
 	loop = tqdm(loader, leave=True)
@@ -85,7 +82,6 @@ for epoch in range(epochs):
 		# print relevant info to progress bar
 		loop.set_description(f'Epoch {epoch}')
 		loop.set_postfix(loss=loss.sum().item())
-		#acc = (torch.argmax(outputs.logits, -1) == labels).float().mean()
 		# log metrics to wandb
-		wandb.log({"loss": loss.sum().item()})#, "acc": acc.item()})
-	model.module.save_pretrained(home+'data/'+model_type+'/model/epoch_'+str(epoch))
+		wandb.log({"loss": loss.sum().item()})
+model.module.save_pretrained(home+'data/'+model_type+'/model')
