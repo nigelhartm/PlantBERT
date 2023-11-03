@@ -1,5 +1,9 @@
-just run
+(for debugging -> else build pipeline with checkpoints and automatic restart)
 
-sh 00_download_genomes.sh
+# 1: run and wait for resources
+sbash reserve_slurm.sh
 
-it runs 01 automatic
+# 2: connect to reserved node and run
+squeue --user=nigel.hartman
+ssh {node name}
+sh run.sh
