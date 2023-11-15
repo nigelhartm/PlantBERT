@@ -2,8 +2,8 @@ print("Load Libraries")
 from tokenizers import ByteLevelBPETokenizer
 from transformers import BertTokenizerFast
 from datasets import load_dataset # big data
-import os
 import sys
+import os
 
 home = '/usr/users/nigel.hartman/'
 
@@ -23,8 +23,11 @@ while line:
 	line = f.readline()
 
 print("Load Dataset")
-dataset = load_dataset("text", data_files=[home + 'data/' + folder + '/all_sample_' + folder + '.fna'], streaming=True)#, split="train")
+dataset = load_dataset("text", data_files=[home + 'data/' + folder + '/all_sample_' + folder + '.fna'])#, streaming=True)#, split="train")
 dataset = dataset["train"]
+dataset = dataset.select((i for i in range(len(dataset)) if i < 1000000)) # 100k for testing
+print("dataset trimmed to " + str(len(dataset)))
+
 tokenizer = ByteLevelBPETokenizer() # old because no kmer anymore add_prefix_space=True) # add prefix space because dont wano have different words cause of leerzeichen
 #trainer = trainers.BpeTrainer(vocab_size=4096, special_tokens=['<s>', '<pad>', '</s>', '<unk>', '<mask>'], min_frequency=2)
 
@@ -35,7 +38,7 @@ def batch_iterator(batch_size=1000):
 	for i in dataset:
 		yield i["text"]
 
-tokenizer.train_from_iterator(batch_iterator(), length=cnt, vocab_size=4096, min_frequency=2,special_tokens=['<s>', '<pad>', '</s>', '<unk>', '<mask>'], show_progress=True)
+tokenizer.train_from_iterator(batch_iterator(), length=len(dataset), vocab_size=4096, min_frequency=2,special_tokens=['<s>', '<pad>', '</s>', '<unk>', '<mask>'], show_progress=True)
 #tokenizer.train(files=[home + 'data/' + folder + '/all_sample_' + folder + '.fna'], vocab_size=4096, min_frequency=2,special_tokens=['<s>', '<pad>', '</s>', '<unk>', '<mask>'])
 os.mkdir(home + 'data/' + folder + '/vocabulary')
 tokenizer.save_model(home + 'data/' + folder + '/vocabulary')
