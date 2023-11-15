@@ -1,7 +1,7 @@
 # Import Libraries
 print("import libraries")
 import torch
-from transformers import RobertaTokenizerFast
+from transformers import BertTokenizerFast
 import sys
 from datasets import load_dataset
 
@@ -16,7 +16,7 @@ if model_type != "plants" and model_type != "other":
 
 # Load tokenizer
 print("load tokenizer")
-tokenizer = RobertaTokenizerFast.from_pretrained(home+'data/'+model_type+'/vocabulary', max_len=512)
+tokenizer = BertTokenizerFast.from_pretrained(home+'data/'+model_type+'/vocabulary', max_len=512)
 
 # Load unprocessed dataset
 print("Load unprocessed dataset")

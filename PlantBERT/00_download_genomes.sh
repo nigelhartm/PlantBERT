@@ -24,6 +24,22 @@ then
 	wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/905/216/605/GCA_905216605.1_AARE701a/GCA_905216605.1_AARE701a_genomic.fna.gz -P ~/data/plants
 	gunzip ~/data/plants/GCA_905216605.1_AARE701a_genomic.fna.gz
 	python 01_prepare_genomes.py ~/data/plants/ GCA_905216605.1_AARE701a_genomic.fna
+	# Cucumis sativus
+	wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/163/735/GCA_016163735.1_Cu2_PacBio_assembly/GCA_016163735.1_Cu2_PacBio_assembly_genomic.fna.gz -P ~/data/plants
+        gunzip ~/data/plants/GCA_016163735.1_Cu2_PacBio_assembly_genomic.fna.gz
+        python 01_prepare_genomes.py ~/data/plants/ GCA_016163735.1_Cu2_PacBio_assembly_genomic.fna
+	# Gillenia trifoliata
+	wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/018/257/905/GCA_018257905.1_V1/GCA_018257905.1_V1_genomic.fna.gz -P ~/data/plants
+        gunzip ~/data/plants/GCA_018257905.1_V1_genomic.fna.gz
+        python 01_prepare_genomes.py ~/data/plants/ GCA_018257905.1_V1_genomic.fna
+	# Glycine max
+	wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/497/155/GCA_020497155.1_ASM2049715v1/GCA_020497155.1_ASM2049715v1_genomic.fna.gz -P ~/data/plants
+        gunzip ~/data/plants/GCA_020497155.1_ASM2049715v1_genomic.fna.gz
+        python 01_prepare_genomes.py ~/data/plants/ GCA_020497155.1_ASM2049715v1_genomic.fna
+	# Phaseolus vulgaris
+	wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/015/708/805/GCA_015708805.1_OAC-Rex_P_vulgaris/GCA_015708805.1_OAC-Rex_P_vulgaris_genomic.fna.gz -P ~/data/plants
+        gunzip ~/data/plants/GCA_015708805.1_OAC-Rex_P_vulgaris_genomic.fna.gz
+        python 01_prepare_genomes.py ~/data/plants/ GCA_015708805.1_OAC-Rex_P_vulgaris_genomic.fna
 # Other
 elif [ "$1" = "other" ]
 then

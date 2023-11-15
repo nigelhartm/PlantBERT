@@ -1,8 +1,8 @@
 # Import Libraries
 print("import  libraries. . .")
 import torch
-from transformers import RobertaConfig
-from transformers import RobertaForMaskedLM
+from transformers import BertConfig
+from transformers import BertForMaskedLM
 from tqdm.auto import tqdm
 import sys
 from datasets import load_from_disk
@@ -26,24 +26,33 @@ if model_type != "plants" and model_type != "other":
 dataset = load_from_disk(home + 'data/'+ model_type +'/mapped_dataset')
 
 #trim dataset (debug)
-dataset = dataset.select((i for i in range(len(dataset)) if i < 500000)) # 500k for testing
-print("dataset trimmed to " + str(len(dataset)))
+#dataset = dataset.select((i for i in range(len(dataset)) if i < 250000)) # 100k for testing
+#print("dataset trimmed to " + str(len(dataset)))
 
 # Building dataLoader
 print("Build Dataloader . . .")
-loader = torch.utils.data.DataLoader(dataset, batch_size=256, shuffle=True)
+loader = torch.utils.data.DataLoader(dataset, batch_size=512, shuffle=True) # 512 + 128
 
 # Initialize Model
 print("Init model . . .")
-config = RobertaConfig(
+config = BertConfig(
     vocab_size=4096,  # we align this to the tokenizer vocab_size (DNABERT2 says 4096)
-    max_position_embeddings=514,
+    max_position_embeddings=512,
     hidden_size=768,
-    num_attention_heads=12,
-    num_hidden_layers=6,
+    num_attention_heads=8, # flash attention muliple 8 for 16 bit muliple 4 for 32 bit
+    num_hidden_layers=8,
     type_vocab_size=1
 )
-model = RobertaForMaskedLM(config)
+model = BertForMaskedLM(config)
+
+# show parameters
+#print(model.num_parameters())
+#print("total parameters")
+
+
+#Pytorch 2.0 (flash attention)
+from optimum.bettertransformer import BetterTransformer
+model = BetterTransformer.transform(model)
 
 if torch.cuda.is_available():
 	device = torch.device('cuda')
@@ -71,9 +80,9 @@ wandb.init(
 print("Training . . .")
 model.train() # activate training mode
 optim = torch.optim.AdamW(model.parameters(), lr=1e-5) # init optimizer
-epochs = 250
-cnt = 0
-ACC_LOG_STEP = 100
+epochs = 1000
+cnt = 200
+ACC_LOG_STEP = 200
 for epoch in range(epochs):
 	#setup loop with TQDM and dataloader
 	loop = tqdm(loader, leave=True)
@@ -88,7 +97,7 @@ for epoch in range(epochs):
 		# fp16
 		with torch.cuda.amp.autocast():
 			# process
-			outputs = model(input_ids, attention_mask=attention_mask, labels=labels)
+			outputs = model(input_ids, labels=labels)# attention_mask=attention_mask)
 		# extract loss
 		loss = outputs.loss
 		# calculate loss for every parameter that needs grad update
@@ -130,4 +139,6 @@ for epoch in range(epochs):
 		else:
 			cnt += 1
 			wandb.log({"loss": loss.sum().item()})
+	## if training and want to save the model
+	#model = BetterTransformer.reverse(model)
 	# save later first try outmodel.module.save_pretrained(home+'data/'+model_type+'/model/epoch_'+str(epoch))
