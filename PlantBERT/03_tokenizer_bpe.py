@@ -36,7 +36,7 @@ stats_file.write("tokenizer_lines,start_time,end_time,duration\n")
 
 # train different tokenizers on different number of lines
 print("Train tokenizers on " + str(folder) + "model from 100k to 1M lines")
-for sample in range(100000, 1000000+1, 100000):
+for sample in range(100000, 1500000+1, 100000):
 	begin_time = datetime.now()
 	print("Start train tokenizer lines " + str(sample) + " at time " + str(begin_time))
 	# Trim dataset

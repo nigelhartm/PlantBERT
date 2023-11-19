@@ -29,7 +29,7 @@ dataset = dataset["train"]
 stats_file = open(home+'data/'+model_type+'/04_evaluate.csv', 'w')
 stats_file.write("tokenizer_lines,unk_cnt,token_cnt,max_token_line,min_token_line,lines_smaller_eq_128_token,lines_bigger_eq_64_token,eval_duration\n")
 
-for sample in range(100000, 1000000+1, 100000):
+for sample in range(100000, 1500000+1, 100000):
 	print("Evaluiere tokenizer_"+str(sample))
 	#
 	begin_time = datetime.now()
