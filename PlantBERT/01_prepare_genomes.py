@@ -27,9 +27,10 @@ while line:
                 buf = ''
         if len(buf) >= rand_len:
                 # dont trim down the data ... if(random.random() < ratio):
-                for j in range(0, rand_len, kmer):
-                        out_file.write(buf[j:j+kmer] + "") # dont use kmer !!!???
-                out_file.write("\n")
+                #for j in range(0, rand_len, kmer):
+                #        out_file.write(buf[j:j+kmer] + "") # dont use kmer !!!??? # wrong length per line with kmer because 512/6 is not even
+                out_file.write(buf[0:rand_len] + "\n")
+		#out_file.write("\n")
                 #out_file.write(buf[0:rand_len] + "\n")
                 buf = buf[rand_len:len(buf)]
                 #rand_len = random.randrange(6, 513, kmer)

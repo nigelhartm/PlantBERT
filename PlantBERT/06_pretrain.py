@@ -37,7 +37,7 @@ loader = torch.utils.data.DataLoader(dataset, batch_size=512, shuffle=True) # 51
 print("Init model . . .")
 config = BertConfig(
     vocab_size=4096,  # we align this to the tokenizer vocab_size (DNABERT2 says 4096)
-    max_position_embeddings=512,
+    max_position_embeddings=128, # 512 before changing pipeline to 128
     hidden_size=768,
     num_attention_heads=8, # flash attention muliple 8 for 16 bit muliple 4 for 32 bit
     num_hidden_layers=8,
