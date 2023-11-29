@@ -7,6 +7,17 @@ import sys
 import os
 from transformers import PreTrainedTokenizerFast
 from datetime import datetime
+import wandb
+
+# start a new wandb run to track this script
+wandb.init(
+    # set the wandb project where this run will be logged
+    project="plantbert_tokenizer",
+    
+    # track hyperparameters and run metadata
+    config={
+    }
+)
 
 # Initialize basic vars
 home = '/usr/users/nigel.hartman/'
@@ -37,6 +48,7 @@ stats_file.write("tokenizer_lines,start_time,end_time,duration\n")
 # train different tokenizers on different number of lines
 print("Train tokenizers on " + str(folder) + "model from 100k to 1M lines")
 for sample in range(100000, 1500000+1, 100000):
+	wandb.log({"sample": sample})
 	begin_time = datetime.now()
 	print("Start train tokenizer lines " + str(sample) + " at time " + str(begin_time))
 	# Trim dataset
@@ -57,3 +69,4 @@ for sample in range(100000, 1500000+1, 100000):
 	fast_tokenizer.save_pretrained(home + 'data/' + folder + '/vocabulary_'+str(sample))
 	print("Saved tokenizer lines " + str(sample))
 stats_file.close()
+wandb.finish()

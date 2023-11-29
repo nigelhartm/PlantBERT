@@ -26,12 +26,12 @@ if model_type != "plants" and model_type != "other":
 dataset = load_from_disk(home + 'data/'+ model_type +'/mapped_dataset')
 
 #trim dataset (debug)
-#dataset = dataset.select((i for i in range(len(dataset)) if i < 250000)) # 100k for testing
+#dataset = dataset.select((i for i in range(len(dataset)) if i < 1000)) # 100k for testing
 #print("dataset trimmed to " + str(len(dataset)))
 
 # Building dataLoader
 print("Build Dataloader . . .")
-loader = torch.utils.data.DataLoader(dataset, batch_size=512, shuffle=True) # 512 + 128
+loader = torch.utils.data.DataLoader(dataset, batch_size=4096, shuffle=True) # 512 + 128
 
 # Initialize Model
 print("Init model . . .")
@@ -46,13 +46,8 @@ config = BertConfig(
 model = BertForMaskedLM(config)
 
 # show parameters
-#print(model.num_parameters())
-#print("total parameters")
-
-
-#Pytorch 2.0 (flash attention)
-from optimum.bettertransformer import BetterTransformer
-model = BetterTransformer.transform(model)
+print(model.num_parameters())
+print("total parameters")
 
 if torch.cuda.is_available():
 	device = torch.device('cuda')
@@ -60,29 +55,33 @@ else:
 	sys.exit("\tNO GPU ERROR!")
 model.to(device)
 
+from optimum.bettertransformer import BetterTransformer
+model = BetterTransformer.transform(model)
+
 model = torch.nn.DataParallel(model, range(0, torch.cuda.device_count())) ############## DataParallel#####################################
+
 
 # start a new wandb run to track this script
 wandb.init(
 	# set the wandb project where this run will be logged
 	project="plantbert",
-	name="plantbert_run_000",
+	name="plantbert_v1",
 	# track hyperparameters and run metadata
 	config={
-	"learning_rate": 0.04,
+	"learning_rate": 1e-5,
 	"architecture": "BERT",
 	"dataset": "plantbert",
-	"epochs": 10
+	"epochs": 100
 	}
 )
 
 # Train the model
 print("Training . . .")
 model.train() # activate training mode
-optim = torch.optim.AdamW(model.parameters(), lr=1e-5) # init optimizer
-epochs = 1000
-cnt = 200
-ACC_LOG_STEP = 200
+optim = torch.optim.AdamW(model.parameters(), lr=3e-5)# oder 1e-5????????????????????????????????? # init optimizer
+epochs = 100
+ACC_LOG_STEP = 100
+cnt = ACC_LOG_STEP
 for epoch in range(epochs):
 	#setup loop with TQDM and dataloader
 	loop = tqdm(loader, leave=True)
@@ -142,3 +141,5 @@ for epoch in range(epochs):
 	## if training and want to save the model
 	#model = BetterTransformer.reverse(model)
 	# save later first try outmodel.module.save_pretrained(home+'data/'+model_type+'/model/epoch_'+str(epoch))
+	sub_model = BetterTransformer.reverse(model.module)
+	sub_model.save_pretrained(home+'data/'+model_type+'/model/epoch_'+str(epoch))

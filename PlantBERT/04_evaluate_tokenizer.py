@@ -5,7 +5,6 @@ from transformers import PreTrainedTokenizerFast
 import sys
 from datasets import load_dataset
 from datetime import datetime
-
 # Initialize variables
 print("init variables")
 home = '/usr/users/nigel.hartman/'
@@ -31,7 +30,6 @@ stats_file.write("tokenizer_lines,unk_cnt,token_cnt,max_token_line,min_token_lin
 
 for sample in range(100000, 1500000+1, 100000):
 	print("Evaluiere tokenizer_"+str(sample))
-	#
 	begin_time = datetime.now()
 	print("load tokenizer")
 	tokenizer = PreTrainedTokenizerFast.from_pretrained(home+'data/'+model_type+'/vocabulary_'+str(sample) + '/')
