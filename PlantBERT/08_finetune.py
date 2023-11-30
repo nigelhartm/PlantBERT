@@ -1,6 +1,13 @@
+
+
 print("import datasets")
 import datasets as ds
+
+print("import torch")
 import torch
+print("GPU test:")
+print(torch.cuda.is_available())
+print(torch.cuda.device_count())
 from transformers import AutoModelForSequenceClassification
 from transformers import TrainingArguments, Trainer
 import numpy as np
@@ -24,10 +31,10 @@ model = AutoModelForSequenceClassification.from_pretrained("/usr/users/nigel.har
 training_args = TrainingArguments(
 	output_dir="/usr/users/nigel.hartman/data/plants/TrainingArguments_finetune",          # output directory
 	evaluation_strategy="epoch",
-	num_train_epochs=100,              # total number of training epochs
+	num_train_epochs=25,              # total number of training epochs
 	per_device_train_batch_size=128,  # batch size per device during training
 	per_device_eval_batch_size=32,   # batch size for evaluation
-	warmup_steps=50,                # number of warmup steps for learning rate scheduler
+	warmup_steps=32,                # number of warmup steps for learning rate scheduler
 	weight_decay=0.01,               # strength of weight decay
 	logging_dir='/usr/users/nigel.hartman/data/logs',            # directory for storing logs
 	logging_steps=10,
@@ -49,7 +56,8 @@ trainer = Trainer(
 )
 
 trainer.train()
-
+# maybe here you can upload to huggingface automatically?
+trainer.save_model("/usr/users/nigel.hartman/data/plants/model_finetuned_tf")
 
 
 
