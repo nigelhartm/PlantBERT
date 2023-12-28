@@ -1,4 +1,12 @@
+import sys
 
+data = ""
+
+if len(sys.argv) < 2:
+	print("argument missing (all|tata|no_tata)")
+	sys.exit()
+else:
+	data = str(sys.argv[1])
 
 print("import datasets")
 import datasets as ds
@@ -14,7 +22,7 @@ import numpy as np
 import evaluate
 
 print("load datasets")
-dataset = ds.load_from_disk("/usr/users/nigel.hartman/data/plants/mapped_dataset_finetune")
+dataset = ds.load_from_disk("/usr/users/nigel.hartman/data/plants/mapped_dataset_finetune_" + data)
 dataset.set_format("torch")
 #print(dataset)
 

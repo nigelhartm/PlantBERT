@@ -1,8 +1,7 @@
 #!/bin/bash
 #SBATCH -p gpu
-#SBATCH -G v100:2
+#SBATCH -G 1
 #SBATCH -C scratch
-#SBATCH --qos=long
-#SBATCH -t 5-00:00:00
+#SBATCH -t 2-00:00:00
 
 watch -n 30 free -m
