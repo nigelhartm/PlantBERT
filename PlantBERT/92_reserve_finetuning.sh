@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -p gpu
-#SBATCH -G 1
+#SBATCH -G gtx1080:2
 #SBATCH -C scratch
 #SBATCH -t 2-00:00:00
 
