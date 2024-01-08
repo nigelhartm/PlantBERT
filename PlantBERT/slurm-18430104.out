@@ -1,0 +1,10 @@
+============ Job Information ===================================================
+Submitted: 2023-12-28T20:16:40
+Started: 2023-12-28T20:17:07
+Ended: 2023-12-30T20:17:21
+Elapsed: 2881 min, Limit: 2880 min, Difference: -1 min
+CPUs: 12, Nodes: 1
+============= ProfiT-HPC =======================================================
+To generate the ProfiT-HPC text report, run the following command
+profit-hpc 18430104
+================================================================================
