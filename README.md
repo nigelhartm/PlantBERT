@@ -1,4 +1,5 @@
-# PlantBERT
+# myabe keep this repo for all files and call the project old_PlantBERT
+new one is called just plantbert and just include the barepipeline which can be easily used with parameters not to much files.. one script for all
 
 ![alt_text](img/logo.jpeg)
 
