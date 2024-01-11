@@ -36,7 +36,7 @@ model = nn.Sequential(
 	nn.Sigmoid()
 )
 print(model)
-
+print("model params" + str(model.parameters))
 loss_fn = nn.BCELoss()  # binary cross entropy
 optimizer = optim.Adam(model.parameters(), lr=0.000003)
 
