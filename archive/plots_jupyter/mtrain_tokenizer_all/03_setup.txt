@@ -1,0 +1,1 @@
+The 03_train_tokenizers_stats.csv was running on a subset of the big dataset with 10128892lines and 512 nucleotides per line.

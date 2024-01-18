@@ -1,0 +1,2 @@
+put in here conda environment requirements
+or create conda yaml or something like that

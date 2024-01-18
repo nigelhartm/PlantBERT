@@ -1,0 +1,4 @@
+mkdir fnagz
+mkdir formatted
+mkdir sampled_kmers_train
+mkdir sampled_kmers_test

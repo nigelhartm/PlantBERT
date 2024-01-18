@@ -1,1 +1,0 @@
-gunzip fnagz/*.fna.gz
