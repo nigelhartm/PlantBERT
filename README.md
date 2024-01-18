@@ -1,21 +1,6 @@
-# myabe keep this repo for all files and call the project old_PlantBERT
-new one is called just plantbert and just include the barepipeline which can be easily used with parameters not to much files.. one script for all
+# PlantBERT
 
 ![alt_text](img/logo.jpeg)
 
-## 1: run and wait for resources
-sbash 90_reserve_slurm_pre_processing.sh<br>
-screen -S ...<br>
-ssh ...<br>
-srun -p medium -c 30 --mem-per-cpu 4G -t 5-00:00:00 --pty bash<br>
-sh 90_run_pre_processing.sh
-<br>
-choose best tokenizer (propably last one) and cp ... vocabulary_final
-<br>
-sbash 91_reserve_slurm_pre_training.sh<br>
-screen -S ... <br>
-ssh ...<br>
-srun -p gpu -G v100:8 -t 5-00:00:00 --pty bash<br>
-python 05_tokenize_data_map_dataset.py plants<br>
-python 06_pretrain.py plants<br>
-<br> 
+## Abstract
+The impact of transformer architecture on natural language processing has inspired innovative applications in various domains. There are already various large language models for biological data, such as DNABERT2, majorly focussing on human and animal data. However, the model for plants does not exist. Therefore we developed a specialized model, PlantBERT, uniquely designed for the plant genome. By utilizing cutting-edge methods, the model showed promising results in the pre-training phase, with high accuracy, compared to DNABERT2. Further fine-tuning both models for a binary classification task was focused on plant promoter detection, demonstrating the models efficiency in addressing domain-specific challenges. With just half the model size, PlantBERT yielded results in this task that were similar to those of DNABERT2. This shows the necessity for the model tailored to the plant genome. This study not only shows the practicality of constructing PlantBERT but also establishes a robust foundation for future research. The accomplishment expands the plant genomics research and emphasizes the potential of tailored language models in specialized scientific domains. PlantBERT provides advancements in our understanding of plant genomic sequences and establishes a foundation for continuous innovation in the field.
