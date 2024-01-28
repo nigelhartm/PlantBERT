@@ -41,12 +41,14 @@ I performed the training of this model during my Masterthesis in Bioinformatics.
 
 ## Comparison
 PlantBERT achieved an accuracy of around 30% in predicting the masked tokens in the pre-training phase.
-<br>
+<br><br>
 ![alt_text](img/plot_pretrain_plantbert.png)
-<br>
-DNABERT2 achieved an accuracy of just 5% in predicting masked tokens on our plant genome dataset.
-<br>
+<br><br>
+DNABERT2 achieved an accuracy of just 5% in predicting masked tokens on our plant genome dataset (https://github.com/Zhihan1996/DNABERT_2).
+<br><br>
 ![alt_text](img/plot_pretrain_compare_both.png)
-<br>
+<br><br>
 In the fine-tuning phase this difference is not that high anymore. Like we can see in the follwoing graph both models performed equally well. It still need to be mentioned that PlantBERT just is half the size of the DNABERT2 model (60M vs 120M parameters). We believe, there are fine-tuning tasks, which profit more from the good pre-training perfromance and provide even better results in the down stream task.
+<br><br>
 ![alt_text](img/plot_finetune.png)
+<br><br>
