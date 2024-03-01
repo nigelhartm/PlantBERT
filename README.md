@@ -32,7 +32,7 @@ logits = model(inputs_masked).logits
 ```
 More examples how to use the model and finetune it can be found in the fine_tuning.py script.
 
-## How to train my own model?
+## How to train an own model?
 I ordered all scripts by a prefix at the filename. You can simply use one after each other and edit them for your needs.
 
 ## More information
