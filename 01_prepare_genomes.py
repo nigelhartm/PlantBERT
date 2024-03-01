@@ -4,7 +4,7 @@ import os
 import random
 
 # Status: Start
-print('* * * Started 01_... python script.')
+print('* Started 01_... python script.')
 
 # Declare variables
 folder = None
