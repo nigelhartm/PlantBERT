@@ -3,3 +3,6 @@ working_dir/
 *.fna.gz
 *.fna
 wandb/
+venv/
+.vscode/
+oryx-build-commands.txt
