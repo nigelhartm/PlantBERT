@@ -3,8 +3,9 @@ import sys
 import os
 import random
 
-# Status: Start
-print('* Started 01_... python script.')
+# Status
+print("* Started 01_prepare_genomes.py")
+print("Warning: This script is planned to get started automatically by the 00_download_genomes.sh script")
 
 # Declare variables
 folder = None
@@ -15,40 +16,38 @@ if len(sys.argv) > 2:
         folder = str(sys.argv[1])
         file_name = str(sys.argv[2])
 else:
-        sys.exit("")
+        sys.exit("Error: Mistake during call of 01_prepare_genomes.py. Expected parameters not provided. [1] = data folder; [2] = file name")
 
-in_file = open(folder + file_name, 'r')
-out_file = open(folder + 'sample_' + str(file_name), 'w')
+# Open Filestreams
+in_file = open(folder + file_name, 'r') # READ
+out_file = open(folder + 'sample_' + str(file_name), 'w') # WRITE
 
-#file_stats = os.stat(folder + file)
-
-#ratio = (1 / (int(file_stats.st_size) / 150000000))
+# Initialize Variables
 buf = ''
 kmer = 6
-rand_len = 512 # dont use random length anymore flash attention 2 has no padding random.randrange(6, 513, kmer)
+seq_len = 512
+
+# Go through file line by line
 line = in_file.readline()
 while line:
+        # Check if line contains data
         if not line.startswith('>'):
                 buf += line
-                buf = buf.upper()
-                buf = buf.replace('N', '')
-                buf = buf.replace('.', '')
-                buf = buf.replace('\n', '')
-                buf = buf.replace(' ', '')
+                buf = buf.upper().replace('N', '').replace('.', '').replace('\n', '').replace(' ', '')
+        # No data line
         else:
                 buf = ''
-        if len(buf) >= rand_len:
-                # dont trim down the data ... if(random.random() < ratio):
-                #for j in range(0, rand_len, kmer):
-                #        out_file.write(buf[j:j+kmer] + "") # dont use kmer !!!??? # wrong length per line with kmer because 512/6 is not even
-                out_file.write(buf[0:rand_len] + "\n")
-		#out_file.write("\n")
-                #out_file.write(buf[0:rand_len] + "\n")
-                buf = buf[rand_len:len(buf)]
-                #rand_len = random.randrange(6, 513, kmer)
+        # Is our buffer full?
+        if len(buf) >= seq_len:
+                # Write buffer to file
+                out_file.write(buf[0:seq_len] + "\n")
+                buf = buf[seq_len:len(buf)]
+        # Read a new line
         line = in_file.readline()
+
+# Close files
 in_file.close()
 out_file.close()
 
-# Status: End
-print('finished script. * * *')
+# Status
+print("* Finished 01_prepare_genomes.py")

@@ -1,5 +1,4 @@
 # Load Libraries
-print("Load Libraries")
 from tokenizers import ByteLevelBPETokenizer
 from transformers import BertTokenizerFast
 from datasets import load_dataset # big data
@@ -9,17 +8,10 @@ from transformers import PreTrainedTokenizerFast
 from datetime import datetime
 import wandb
 
-# start a new wandb run to track this script
-wandb.init(
-    # set the wandb project where this run will be logged
-    project="plantbert_tokenizer",
-    
-    # track hyperparameters and run metadata
-    config={
-    }
-)
+# Start WandB tracking
+wandb.init(project="plantbert_tokenizer", config={})
 
-# Initialize basic vars
+# Initialize Variables
 home = '/usr/users/nigel.hartman/'
 folder = ""
 if len(sys.argv) >= 2:
