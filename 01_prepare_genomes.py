@@ -1,12 +1,24 @@
+# Import Libraries
 import sys
 import os
 import random
 
+# Status: Start
 print('* * * Started 01_... python script.')
-folder = str(sys.argv[1])
-file = str(sys.argv[2])
-in_file = open(folder + file, 'r')
-out_file = open(folder + 'sample_' + str(file), 'w')
+
+# Declare variables
+folder = None
+file_name = None
+
+# Check for parameters
+if len(sys.argv) > 2:
+        folder = str(sys.argv[1])
+        file_name = str(sys.argv[2])
+else:
+        sys.exit("")
+
+in_file = open(folder + file_name, 'r')
+out_file = open(folder + 'sample_' + str(file_name), 'w')
 
 #file_stats = os.stat(folder + file)
 
@@ -37,4 +49,6 @@ while line:
         line = in_file.readline()
 in_file.close()
 out_file.close()
+
+# Status: End
 print('finished script. * * *')
